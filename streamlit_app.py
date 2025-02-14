@@ -3,7 +3,7 @@ import streamlit as st
 from functions import interpret_air_quality, display_particle_counts
 
 # Replace with the appropriate public URL from ngrok or your endpoint
-api_url = " https://440a-2601-645-8800-29a0-00-7233.ngrok-free.app/data"
+api_url = "https://whale-pro-marmot.ngrok-free.app/data"
 
 try:
     response = requests.get(api_url)
